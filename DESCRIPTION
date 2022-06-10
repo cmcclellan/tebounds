@@ -1,0 +1,17 @@
+Package: tebounds
+Type: Package
+Title: Average Treatment Effect Bounds
+Version: 0.1.0
+Author: Chandler McClellan
+Maintainer: Chandler McClellan <chandler.mcclellan@gmail.com>
+Description: This is a port of the Stata command 'tebounds' by Ian McCarthy, Daniel Millimet, and Manan Roy.  The command provides treatement bounds of the average treatment effect for a binary treatment on a binary outcome in the presence of endogenous and misreported treatment assignment.
+License: GPL (>=3)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    boot,
+    survey,
+    ggplot2,
+    Formula,
+    stats
+RoxygenNote: 7.1.2
